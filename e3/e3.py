@@ -207,10 +207,10 @@ def leftTriangle(M):
     return risultato
 
 def leftTriangle(M):
-    n = len(M)              # n è il numero di righe (e colonne)
+    n = len(M) # n è il numero di righe (e colonne)
     risultato = []
     for j in range(n):
-            for i in range(j,n-j):
+            for i in range(j, n - j):
                 risultato.append(M[i][j])
 
     return risultato
