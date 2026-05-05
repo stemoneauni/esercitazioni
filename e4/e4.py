@@ -165,3 +165,10 @@ def tre(M):
         for j in range(n - i): #j va da 0 a n-i-1 per rimanere nel triangolo
             risultato.append(M[i][j])    
     return risultato
+
+M = [
+    ["A", "B", "C", "D"],
+    ["B","E", "H", "K"],
+    ["C", "H", "F", "L"],
+    ["D", "K", "L", "G"]
+]
